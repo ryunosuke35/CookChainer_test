@@ -1,11 +1,11 @@
 # README
 
-#開発言語
+# 開発言語
 
 - ruby2.6.5
 - Rails5.2.5
 
-#就業Teamの技術
+# 就業Teamの技術
 
 - devise
 - kaminari
@@ -28,16 +28,16 @@ $ rails s
 ```
 
 # カタログ設計
-(https://docs.google.com/spreadsheets/d/15eXarWHMIiYCrBauzeOVWICaIOFxFX6Vb37GKUyPmiE/edit#gid=426913677)
+https://docs.google.com/spreadsheets/d/15eXarWHMIiYCrBauzeOVWICaIOFxFX6Vb37GKUyPmiE/edit#gid=426913677
 
 # テーブル定義書
-(https://docs.google.com/spreadsheets/d/15eXarWHMIiYCrBauzeOVWICaIOFxFX6Vb37GKUyPmiE/edit#gid=1832172674)
+https://docs.google.com/spreadsheets/d/15eXarWHMIiYCrBauzeOVWICaIOFxFX6Vb37GKUyPmiE/edit#gid=1832172674
 
 # ワイヤーフレーム
-(https://cacoo.com/diagrams/Ez2vuxTm91vrSgvJ/E81AB)
+https://cacoo.com/diagrams/Ez2vuxTm91vrSgvJ/E81AB
 
 #  ER図
-(https://cacoo.com/diagrams/NlqBFetvGcy4G1Yv/33C2F)
+https://cacoo.com/diagrams/NlqBFetvGcy4G1Yv/33C2F
 
 # 画面遷移図
-(https://cacoo.com/diagrams/fCW62krYN0JAlFMO/82579)
+https://cacoo.com/diagrams/fCW62krYN0JAlFMO/82579
