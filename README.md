@@ -1,17 +1,17 @@
 # README
 
-# 開発言語
+## 開発言語
 
 - ruby2.6.5
 - Rails5.2.5
 
-# 就業Teamの技術
+## 就業Teamの技術
 
 - devise
 - kaminari
 - お気に入り機能
 
-# カリキュラム外の機能
+## カリキュラム外の機能
 
 - ancestry
 - rinku
@@ -42,3 +42,4 @@ https://cacoo.com/diagrams/NlqBFetvGcy4G1Yv/33C2F
 
 ## 画面遷移図
 https://cacoo.com/diagrams/fCW62krYN0JAlFMO/82579
+![画面遷移図](./app/assets/images/画面遷移図.png)
