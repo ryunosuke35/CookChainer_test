@@ -8,11 +8,11 @@
 ## 就業Teamの技術
 
 - devise
-- kaminari
 - お気に入り機能
 
 ## カリキュラム外の機能
 
+- kaminari
 - ancestry
 - rinku
 - ransack
