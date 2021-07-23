@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
 
+gem 'rinku'
+gem 'shortener'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.5'
 # Use postgresql as the database for Active Record
@@ -42,6 +44,11 @@ group :development, :test do
 end
 
 group :development do
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'meta_request'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
