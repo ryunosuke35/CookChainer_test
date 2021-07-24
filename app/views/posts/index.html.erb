@@ -1,6 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Posts</h1>
+<%= link_to 'New Post', new_post_path %>
+
+
 
   <tbody>
     <% @array = {} %>
@@ -39,8 +42,27 @@
 
     <% end %>
 
+
+
+
+    <% array = []
+     chain = 0
+
+    @array.each { |key, value|
+      if key != 0
+        if value == true && @array[key - 1] == true
+          chain += 1
+        else
+          chain = 0
+        end
+        array << chain
+      end
+    } %>
+    <h3>最大連鎖数</h3>
+    <%= array.max %>
+
+
+
+
+
   </tbody>
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
