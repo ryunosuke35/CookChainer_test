@@ -6,6 +6,9 @@ ruby '2.6.5'
 gem "jquery-rails"
 gem 'rinku'
 gem 'shortener'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'mimemagic', '0.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.5'
 # Use postgresql as the database for Active Record

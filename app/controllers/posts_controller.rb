@@ -25,7 +25,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to @post, notice: "Post was successfully created." }
+        format.html { redirect_to posts_path, notice: "Post was successfully created." }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -64,6 +64,6 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:name, :url, :memo, :image, { tag_ids: [] })
+      params.require(:post).permit(:name, :url, :memo, :image, :image_cache, { tag_ids: [] })
     end
 end

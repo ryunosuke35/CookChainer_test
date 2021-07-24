@@ -9,6 +9,7 @@
     <div class="box_style">
       <%= content_tag :div, id: "box_#{id}" do %>
         <tr>
+          <%= image_tag post.image.url if post.image.present? %>
           <td><%= link_to "#{post.name}", post_path(post) %></td><br>
           <td>
             <% post.tags.each do |tag| %>
