@@ -45,24 +45,19 @@
 
 
 
-    <% array = []
-     chain = 0
-
+    <% chain = 0
+    chain_max = 0
     @array.each { |key, value|
-      if key != 0
-        if value == true && @array[key - 1] == true
-          chain += 1
-        else
-          chain = 0
-        end
-        array << chain
+      if value
+        chain += 1
+      else
+        chain_max = chain if chain > chain_max
+        chain = 0
       end
     } %>
+
     <h3>最大連鎖数</h3>
-    <%= array.max %>
-
-
-
+    <%= chain_max %>
 
 
   </tbody>
