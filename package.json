@@ -1,5 +1,7 @@
 {
   "name": "CookChainer_test",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
