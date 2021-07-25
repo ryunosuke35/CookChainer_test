@@ -2,6 +2,8 @@
   "name": "CookChainer_test",
   "private": true,
   "dependencies": {
+    "bootstrap": "3",
+    "bootstrapp": "^0.0.0",
     "jquery": "^3.6.0"
   }
 }

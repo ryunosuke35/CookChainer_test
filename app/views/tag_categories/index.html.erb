@@ -2,7 +2,7 @@
 
 <h1>Tag Categories</h1>
 
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>Name</th>
@@ -20,7 +20,54 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown drop-hover">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+    食材を選択
+  </button>
+
+  <ul class = "dropdown-menu">
+    <% @parents.each do |parent| %>
+    <li class="dropright drop-hover"><%= link_to tag_categories_path do %>
+      <%= parent.name %>
+      <% end %>
+      <ul class="dropdown-menu">
+        <% parent.children.each do |child| %>
+        <li class="dropright drop-hover"><%= link_to tag_categories_path do %>
+          <%= child.name %>
+          <% end %>
+        </li>
+        <% end %>
+      </ul>
+    </li>
+    <% end %>
+  </ul>
+</div>
+
+<style>
+.drop-hover:hover > .dropdown-menu {
+  display: block !important;
+}
+</style>
+
+
 
 <br>
 

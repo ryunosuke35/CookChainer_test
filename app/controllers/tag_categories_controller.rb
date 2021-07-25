@@ -4,6 +4,7 @@ class TagCategoriesController < ApplicationController
   # GET /tag_categories or /tag_categories.json
   def index
     @tag_categories = TagCategory.all
+    @parents = TagCategory.all.order("id ASC").limit(2)
   end
 
   # GET /tag_categories/1 or /tag_categories/1.json
