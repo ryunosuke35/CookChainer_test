@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+  password_digest: MyString
+  profile: MyString
+  image: MyString
+  level: 1
+  experience_point: 1
+  chains: 1
+  public_or_private: 
+  admin: 
+
+two:
+  name: MyString
+  email: MyString
+  password_digest: MyString
+  profile: MyString
+  image: MyString
+  level: 1
+  experience_point: 1
+  chains: 1
+  public_or_private: 
+  admin: 
