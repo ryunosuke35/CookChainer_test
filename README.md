@@ -12,7 +12,6 @@
 
 ## カリキュラム外の機能
 
-- kaminari
 - ancestry
 - rinku
 - ransack
